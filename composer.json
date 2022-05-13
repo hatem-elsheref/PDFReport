@@ -1,0 +1,21 @@
+{
+    "name": "elsheref/pdf",
+    "description": "generate pdf report in ar and en languages",
+    "type": "metapackage",
+    "require": {
+        "tecnickcom/tcpdf": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elsheref\\Pdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hatem-elsheref",
+            "email": "hatem_mohamed_elsheref@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
